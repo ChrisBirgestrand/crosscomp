@@ -1,0 +1,64 @@
+body {
+    width: 1360px;
+    height: 2068px;
+}
+
+.head {
+    display: flex;
+    margin-top: 61px;
+    margin-left: 126px;
+}
+
+.home {
+    width: 600px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.headbutton {
+    width: 500px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 29px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    width: 1110px;
+    height: 23px;
+    margin-left: 126px;
+    margin-top: 132px;
+}
+
+.footer-title {
+    width: 850px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-links {
+    width: 200px;
+}
+
+.footer-icons {
+    width: 210px;
+    height: 15px;
+    display: flex;
+    justify-content: end;
+}
+
+.instagram {
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.contact {
+    margin-left: 30px;
+}

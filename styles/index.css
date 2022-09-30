@@ -1,0 +1,85 @@
+body {
+    width: 1360px;
+    height: 2068px;
+}
+
+.head {
+    display: flex;
+    margin-top: 61px;
+    margin-left: 126px;
+}
+
+.home {
+    width: 600px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.headbutton {
+    width: 500px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 29px;
+}
+
+a.button1 {
+    justify-self: end;
+}
+
+a.button2 {
+    justify-content: flex-end;
+}
+
+.container1 {
+    width: 635px;
+    display: inline-block;
+}
+
+.text-box1 {
+    width: 635px;
+    height: 251px;
+    display: inline-block;
+}
+
+
+.text1 {
+    font-weight: 700px;
+    font-size: 22px;
+    line-height: 28px;
+    color: #4a4ff2;
+}
+
+.text2  {
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 60px;
+    float: right;
+    height: 148px;
+}
+
+.text2b {
+    width: 402px;
+    height: 251px;
+    display: inline-block;
+}
+
+.grid {
+    width: 1110px;
+    height: 1960px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    gap: 15px;
+}
+
+.img1 {
+    width: 357px;
+    height: 413px;
+}
