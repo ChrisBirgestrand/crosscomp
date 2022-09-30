@@ -34,15 +34,15 @@ a.button2 {
 
 .container1 {
     width: 635px;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 20% 20% 50% 50%;
+    grid-template-rows: 1fr 20% 20% 20% 20% 20%;
 }
 
-.text-box1 {
-    width: 635px;
-    height: 251px;
-    display: inline-block;
+.tbox1-right {
+    width: 212px;
+    height: 34px;
 }
-
 
 .text1 {
     font-weight: 700px;

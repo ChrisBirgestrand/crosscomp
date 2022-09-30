@@ -24,6 +24,78 @@ body {
     gap: 29px;
 }
 
+.top {
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr;
+    grid-template-rows: 10% 5% 5% 5% 5% 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+}
+
+.h1 {
+    width: 475px;
+    height: 174px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #111111;
+    display: inline-block;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.p1 {
+    width: 445px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    display: inline-block;
+    grid-row-start: 7;
+    grid-column-start: 2;
+}
+
+.form {
+    width: 475px;
+    height: 291px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-block;
+    grid-row:  4 / 5;
+    grid-column-start: 3;
+}
+
+#name {
+    border: 0px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 46px;
+    width: 475px;
+    height: 37px;
+}
+
+#email {
+    border: 0px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 46px;
+    width: 475px;
+    height: 37px;
+}
+
+#message {
+    border: 0px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 46px;
+    width: 475px;
+    height: 37px;
+}
+
+#submit {
+    background-color: #4a4ff2;
+    border-color: #4a4ff2;
+    width: 125px;
+    height: 50px;
+}
+
 .image {
     display: flex;
     justify-content: center;
